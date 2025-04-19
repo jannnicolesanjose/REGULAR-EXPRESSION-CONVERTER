@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REC: Regular Expression Converter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='cssConverter/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='logoimages/icon.png') }}">
+</head>
+<body>
+    <div id="convert">
+        <h1>Regular Expression Converter</h1>
+        <div id="letter-container">
+            <div id="letter-image"></div>
+        </div>
+        <div id="input-container">
+            <input type="text" id="letter-input" placeholder="Enter a letter (a-b) or number (0-1)">
+            <div id="button-container">
+                <button id="enter-button">Enter</button>
+                <button id="clear-button">Clear</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
